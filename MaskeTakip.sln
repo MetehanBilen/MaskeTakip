@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workaround", "Workaround\Workaround.csproj", "{831E8FD9-A182-430B-81E2-F89AE6BCDF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{B0DF2854-0A4E-4D70-9AEE-960F9FF89C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{2E265F07-2728-4A62-81D1-96D49C3406C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{831E8FD9-A182-430B-81E2-F89AE6BCDF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831E8FD9-A182-430B-81E2-F89AE6BCDF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831E8FD9-A182-430B-81E2-F89AE6BCDF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831E8FD9-A182-430B-81E2-F89AE6BCDF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DF2854-0A4E-4D70-9AEE-960F9FF89C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DF2854-0A4E-4D70-9AEE-960F9FF89C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DF2854-0A4E-4D70-9AEE-960F9FF89C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DF2854-0A4E-4D70-9AEE-960F9FF89C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E265F07-2728-4A62-81D1-96D49C3406C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E265F07-2728-4A62-81D1-96D49C3406C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E265F07-2728-4A62-81D1-96D49C3406C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E265F07-2728-4A62-81D1-96D49C3406C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFD11F01-96FC-44DC-A320-565BFD923270}
+	EndGlobalSection
+EndGlobal

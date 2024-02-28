@@ -1,0 +1,34 @@
+﻿using Business.Abstract;
+using Entities.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Business.Concrete;
+
+public class PttManager: ISupplierService
+{
+    //İş sınıfı içerisinde başka iş sınıfını newleme yapıyorsa ileriye dönük problem oluşur.
+    //Sonar Cube yazılım kalite ölçümü
+
+    private IApplicantService _applicantService;
+
+    public PttManager(IApplicantService applicantService)
+    {
+        _applicantService = applicantService;
+    }
+    public void GiveMask(Person person)
+    {
+        if(_applicantService.CheckPerson(person))
+        {
+            Console.WriteLine(person.FirstName + " Maske verildi.");
+        }
+        else
+        {
+            Console.WriteLine(person.FirstName + " Maske verilmedi.");
+        }
+
+    }
+}
